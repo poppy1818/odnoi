@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="207dp"
+        android:layout_height="133dp"
+        app:srcCompat="@drawable/dasdasd"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="32dp"
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="270dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="ელ-ფოსტა"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="272dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text=""
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="შესვლა"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="341dp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="364dp"
+        android:layout_height="161dp"
+        android:text="მისამართი:თბილისი 0162, საქართველო ი.ჭავჭავაძის გამზირი N82
+                                               ტელეფონი:(+995 32) 230 80 55
+                                   ელ.ფოსტა:info@btu.edu.ge"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
